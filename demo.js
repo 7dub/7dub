@@ -3,7 +3,8 @@ function hello() {
 		"name":"1111",	
 		"desc":"this is a string from 7dub"
 	};
-	return JSON.stringify(obj);
+	return obj;
+// 	return JSON.stringify(obj);
 }
 
 function analyse() {
@@ -12,5 +13,6 @@ function analyse() {
 		"uid":"v1456666",
 		"desc":"this is a string from 7dub"
 	};
-	return JSON.stringify(obj);
+// 	return JSON.stringify(obj);
+	return obj;
 }
