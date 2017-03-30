@@ -19,3 +19,7 @@ function analyse(data) {
 // 	return JSON.stringify(obj);
 	return obj;
 }
+
+function analyse1(data) {
+	return  "******************************" + data + "******************************";
+}
