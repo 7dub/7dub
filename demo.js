@@ -13,7 +13,7 @@ function analyse(data) {
 	if(bs.length > 0){
 		for(var i=0;i<bs.length;i++){
 			var item = bs[i].split("=");
-			obj.item[0] = item[1];
+			obj[item[0]] = item[1];
 		}
 	}
 // 	return JSON.stringify(obj);
