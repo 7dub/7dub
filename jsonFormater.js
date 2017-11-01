@@ -154,6 +154,7 @@ JsonFormatter.prototype = {
     },
     formatLiteral: function(literal, quote, comma, indent, isArray, style) {
         if (typeof literal == 'string') {
+            literal = literal.replace(/(\n)+|(\r\n)+/g, "");
             if(literal.startsWith("/Date(") && literal.endsWith(")/")){
                 literal = this.convertTimestamp(literal);
             }
