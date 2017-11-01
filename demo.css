@@ -21,7 +21,6 @@ div.ControlsRow, div.HeadersRow {
 
 div.Canvas {
     font-size: 13px;
-    background-color: #ECECEC;
     color: #000000;
     border: solid 1px #CECECE;
 }
@@ -29,6 +28,7 @@ div.Canvas {
 pre, #RawJson {
     font-size: 14px;
     font-family: Monaco, Consolas, Lucida Console, Georgia;
+    resize:none;
 }
 
 #CollapsibleViewDetail a {
@@ -59,7 +59,7 @@ pre, #RawJson {
 
 #RawJson {
     width: 99%;
-    min-height: 700px;
+    min-height: 800px;
     border-radius: 3px;
     margin-bottom: 13px;
 
@@ -96,4 +96,6 @@ A.OtherToolsLink:hover {
 .Canvas{
     float: left;
     width: 69%;
+    height: 800px;
+    overflow: auto;
 }
