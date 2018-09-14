@@ -12,7 +12,7 @@ import java.util.Arrays;
  */
 public final class AESEncryptUtil {
     private static final Logger LOGGER = LoggerFactory.getLogger(AESEncryptUtil.class);
-    private static final String KEY = "7dub@utils";
+    private static final String KEY = "7dub@utilAESDEnc";
 
     private AESEncryptUtil() {
         // 不可实例化
